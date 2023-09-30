@@ -49,11 +49,11 @@ $teams = [
 
 <table>
     <thead>
-        <th>team</th>
-        <th>city</th>
-        <th>division</th>
-        <th>last time champions</th>
-        <th>homepage </a> </th>
+        <th>Team</th>
+        <th>City</th>
+        <th>Division</th>
+        <th>Last time champions</th>
+        <th>Homepage </a> </th>
     </thead>
     <tbody>
         <?php foreach ($teams as $key => $team): ?>
