@@ -8,5 +8,5 @@
 </head>
 <body>
     <header>
-        <h1>Some teams - task</h1>
+        <h1>SOME TEAMS - TASK</h1>
     </header>
