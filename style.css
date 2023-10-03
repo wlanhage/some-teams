@@ -27,3 +27,17 @@ td {
     align-items: center;
 }
 
+.cities {
+    
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.citiestext {
+    display: flex;
+    justify-content: center;
+
+    font-size: 25px;
+}
