@@ -41,3 +41,13 @@ td {
 
     font-size: 25px;
 }
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(255, 145, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

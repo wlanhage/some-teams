@@ -7,3 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Some teams - task</h1>
+    </header>
