@@ -52,6 +52,7 @@ $teams = [
         <th>Team</th>
         <th>City</th>
         <th>Division</th>
+        <th>Nickname</th>
         <th>Last time champions</th>
         <th>Homepage </a> </th>
     </thead>
@@ -61,6 +62,17 @@ $teams = [
                 <td> <?php echo $key ?></td>
                 <td> <?= $team ['city'];?> </td>
                 <td> <?= $team ['league'];?> </td>
+                <td> <?php 
+                        if (array_key_exists('nickname', $team)) {
+                            echo $team['nickname'];
+                            
+                        }
+                        else {
+                            echo "no nickname";
+                        };
+                        
+                        
+                    ?> </td>
                 <td> <?= $team ['last-time-champions'] ; ?> </td>
                 <td> <a href="<?= $team ['url'];?>"> <?= $team ['url'];?> </a> </td>
             </tr>
